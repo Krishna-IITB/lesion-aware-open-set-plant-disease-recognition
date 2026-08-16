@@ -32,6 +32,13 @@ smallest published DINOv3 ViT (about 21M backbone parameters per its model card)
 tokens. A small lesion decoder learns spatial disease evidence while the backbone stays frozen.
 Predicted masks pool patch features; target masks never enter classification inference.
 
+## Historical project evaluation
+
+The September–November 2025 evaluation covered parameter-efficient three-view fusion, binary lesion
+localization, 20-shot lab-to-field recognition against a same-split MVPDR reproduction, and
+held-out-class open-set detection. The author-supplied outcomes are consolidated in
+[`results/README.md`](../results/README.md); this reconstruction has not independently rerun them.
+
 ## Few-shot and lab-to-field protocol
 
 For every seed and shot count, only source-domain training samples construct visual/lesion

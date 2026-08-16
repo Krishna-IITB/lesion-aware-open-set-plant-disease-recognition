@@ -14,9 +14,10 @@ does not relicense pretrained weights or datasets.
 
 ## Training and evaluation status
 
-The software path is implemented and covered by synthetic tests. No real-data model card metrics or
-trained checkpoint are distributed. Accuracy, macro-F1, lesion Dice/mIoU, AUROC, FPR95, subgroup
-behavior, and field reliability are **not yet evaluated**.
+The software path is implemented and covered by synthetic tests. No trained checkpoint is
+distributed. Historical project metrics are documented in
+[`results/README.md`](results/README.md), but they have not been independently rerun by this
+reconstruction; repository-reproduced metrics and subgroup behavior are **not yet evaluated**.
 
 ## Risks
 

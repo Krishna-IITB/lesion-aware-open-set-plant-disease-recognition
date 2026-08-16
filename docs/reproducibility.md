@@ -20,7 +20,9 @@ September–November 2025 work are preserved exactly and recorded as `author-sup
 They are distinct from `repository-reproduced` results rerun from an equivalent protocol and
 `repository-new` results first produced here. Public result tables need not repeat the provenance on
 every cell, but their surrounding note must identify the applicable category. No historical values
-have been supplied for inclusion yet.
+outside the supplied set may be inferred. The current historical set is recorded in
+[`results/README.md`](../results/README.md); corresponding experiments have not yet been rerun by
+this repository.
 
 ## Determinism
 

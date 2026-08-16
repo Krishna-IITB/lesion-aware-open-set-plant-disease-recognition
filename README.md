@@ -7,9 +7,9 @@ features, learns a small per-image evidence gate, and can abstain on held-out di
 > **Project chronology and repository status.** The academic project work was carried out from
 > **September 2025 to November 2025**. This repository is a later cleaned, reproducible
 > reconstruction of that work; its Git history and file timestamps describe the repository's
-> actual creation, not the 2025 project period. No real experiment artifact was present when this
-> reconstruction began, so prior results are not claimed or recreated. Verified real-data metrics
-> are currently **not yet evaluated**.
+> actual creation, not the 2025 project period. No original run artifact was present when this
+> reconstruction began. The historical results below were subsequently supplied by the project
+> author; the current repository has not independently rerun them.
 
 This is deliberately the defensible four-component scope—not a FieldGuard product and not a claim
 to hierarchical memory, conformal prediction, retrieval evidence, deployment, multiple foundation
@@ -28,7 +28,22 @@ The implemented contributions are:
 3. a lightweight PlantSeg-supervised lesion decoder trained with BCE + Dice loss;
 4. interpretable three-view gating and energy/prototype-distance open-set rejection.
 
-These are implementation claims, not performance claims. See [Research claims](docs/claims.md).
+Implementation claims and historical performance provenance are distinguished in
+[Research claims](docs/claims.md).
+
+## Historical project results
+
+The September–November 2025 academic project produced the following author-supplied results:
+
+- Designed three-view gated fusion across textual, global and lesion prototypes using **0.8%
+  trainable parameters**.
+- Achieved **0.76 mean binary-lesion Dice** for lesion localization.
+- Achieved **67% 20-shot lab-to-field macro-F1**, **+6 pp vs same-split MVPDR reproduction**.
+- Added open-set abstention with **0.90 AUROC and 40% FPR95** on held-out disease classes.
+
+These historical results have not yet been independently reproduced by the current reconstruction.
+The concise provenance record and canonical table are in
+[Historical and repository results](results/README.md).
 
 ## Architecture
 
@@ -176,8 +191,8 @@ AUROC and FPR95 for held-out unknown classes. `train-lesion` reports validation 
 are available in the metrics module. Efficiency reporting includes total/trainable parameters and
 trainable percentage. Outputs are written under `runs/<experiment>/seed-<seed>/` as JSON.
 
-No table in this repository contains invented values. [results/README.md](results/README.md) defines
-the promotion rule for future verified results.
+No table in this repository contains invented values. [results/README.md](results/README.md)
+distinguishes author-supplied historical results from future repository-reproduced or new results.
 
 ## Verification
 
