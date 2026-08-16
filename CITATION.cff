@@ -7,7 +7,7 @@ version: 0.1.0
 license: MIT
 abstract: >-
   A cleaned reproducible implementation/reconstruction of academic project work carried out from
-  September to November 2025, combining CLIP prototypes, frozen DINOv3 dense features, lesion
+  December 2025 to January 2026, combining CLIP prototypes, frozen DINOv3 dense features, lesion
   supervision, gated fusion, and open-set rejection. Repository creation metadata is intentionally
   separate from the academic project period.
 authors:

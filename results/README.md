@@ -1,6 +1,6 @@
 # Historical and repository results
 
-## September–November 2025 historical results
+## December 2025–January 2026 historical results
 
 | Outcome | Historical result |
 |---|---:|

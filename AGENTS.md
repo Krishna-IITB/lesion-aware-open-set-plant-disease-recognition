@@ -15,7 +15,7 @@ a lightweight lesion decoder, three-view gating, and simple open-set rejection.
 - Ground-truth test masks are evaluation data and may not enter classification inference.
 - Keep split manifests deterministic and preserve their source-manifest digest.
 - Never commit datasets, weights, feature caches, checkpoints, credentials, or large run artifacts.
-- The academic project period is September–November 2025. Do not backdate Git/files or imply this
+- The academic project period is December 2025–January 2026. Do not backdate Git/files or imply this
   repository existed then; it is a later reproducibility reconstruction.
 
 ## Structure and conventions

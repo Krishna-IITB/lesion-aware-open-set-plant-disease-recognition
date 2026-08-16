@@ -16,7 +16,7 @@ checksums if results are published.
 ## Historical result provenance
 
 Numerical results explicitly supplied by the project author as genuine outcomes of the
-September–November 2025 work are preserved exactly and recorded as `author-supplied historical`.
+December 2025–January 2026 work are preserved exactly and recorded as `author-supplied historical`.
 They are distinct from `repository-reproduced` results rerun from an equivalent protocol and
 `repository-new` results first produced here. Public result tables need not repeat the provenance on
 every cell, but their surrounding note must identify the applicable category. No historical values

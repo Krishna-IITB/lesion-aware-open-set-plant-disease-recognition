@@ -2,11 +2,11 @@
 
 ## Chronology
 
-The academic project period was **September–November 2025**. DINOv3's technical report and public
+The academic project period was **December 2025–January 2026**. DINOv3's technical report and public
 model announcement appeared in August 2025, so its use is chronologically plausible for that period.
 The present repository is a later reproducibility reconstruction and does not claim the repository
-or its Git history existed in 2025. The current PlantSeg archival dataset/paper citation is later;
-that bibliographic date is preserved rather than backdated.
+or its Git history existed during that project period. The current PlantSeg archival dataset/paper
+citation is later; that bibliographic date is preserved rather than backdated.
 
 ## MVPDR-style baseline
 
@@ -34,8 +34,8 @@ Predicted masks pool patch features; target masks never enter classification inf
 
 ## Historical project evaluation
 
-The September–November 2025 evaluation covered parameter-efficient three-view fusion, binary lesion
-localization, 20-shot lab-to-field recognition against a same-split MVPDR reproduction, and
+The December 2025–January 2026 evaluation covered parameter-efficient three-view fusion, binary
+lesion localization, 20-shot lab-to-field recognition against a same-split MVPDR reproduction, and
 held-out-class open-set detection. The author-supplied outcomes are consolidated in
 [`results/README.md`](../results/README.md); this reconstruction has not independently rerun them.
 

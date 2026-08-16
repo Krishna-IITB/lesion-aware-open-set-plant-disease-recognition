@@ -5,11 +5,11 @@ domain shift. It combines CLIP textual and global-image prototypes with lesion-l
 features, learns a small per-image evidence gate, and can abstain on held-out disease classes.
 
 > **Project chronology and repository status.** The academic project work was carried out from
-> **September 2025 to November 2025**. This repository is a later cleaned, reproducible
+> **December 2025 to January 2026**. This repository is a later cleaned, reproducible
 > reconstruction of that work; its Git history and file timestamps describe the repository's
-> actual creation, not the 2025 project period. No original run artifact was present when this
-> reconstruction began. The historical results below were subsequently supplied by the project
-> author; the current repository has not independently rerun them.
+> actual creation, not the December 2025–January 2026 project period. No original run artifact was
+> present when this reconstruction began. The historical results below were subsequently supplied
+> by the project author; the current repository has not independently rerun them.
 
 This is deliberately the defensible four-component scope—not a FieldGuard product and not a claim
 to hierarchical memory, conformal prediction, retrieval evidence, deployment, multiple foundation
@@ -33,7 +33,7 @@ Implementation claims and historical performance provenance are distinguished in
 
 ## Historical project results
 
-The September–November 2025 academic project produced the following author-supplied results:
+The December 2025–January 2026 academic project produced the following author-supplied results:
 
 - Designed three-view gated fusion across textual, global and lesion prototypes using **0.8%
   trainable parameters**.

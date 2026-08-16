@@ -29,6 +29,6 @@ backbones, and Git SHA.
 ## Current status
 
 Synthetic unit/integration checks have been designed to run on CPU. They validate interfaces and
-numerics but are not experiments. Author-supplied results from the September–November 2025 project
-are recorded in [`results/README.md`](../results/README.md). Real-data A–E runs are **not yet
+numerics but are not experiments. Author-supplied results from the December 2025–January 2026
+project are recorded in [`results/README.md`](../results/README.md). Real-data A–E runs are **not yet
 evaluated by this reconstruction** because data, model access, and GPU execution are external.
