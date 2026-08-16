@@ -8,6 +8,9 @@ a lightweight lesion decoder, three-view gating, and simple open-set rejection.
 
 - Never fabricate, estimate, or silently copy metrics. Mark unexecuted work `not yet evaluated`.
 - Label external values `paper-reported`; label repository results with their artifact provenance.
+- Preserve genuine historical project results explicitly supplied by the project author exactly as
+  given. Record them as `author-supplied historical` in provenance, without calling them examples,
+  targets, or repository reproductions unless a current run independently reproduces them.
 - Never tune epochs, temperature, prototypes, mappings, or rejection thresholds on test data.
 - Ground-truth test masks are evaluation data and may not enter classification inference.
 - Keep split manifests deterministic and preserve their source-manifest digest.
