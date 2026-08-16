@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  Cite this software and the upstream MVPDR, CLIP, DINOv3, PlantSeg, and dataset papers when used.
+title: "Lesion-Aware Open-Set Plant Disease Recognition: Extension of ACM MM'24 MVPDR"
+type: software
+version: 0.1.0
+license: MIT
+abstract: >-
+  A cleaned reproducible implementation/reconstruction of academic project work carried out from
+  September to November 2025, combining CLIP prototypes, frozen DINOv3 dense features, lesion
+  supervision, gated fusion, and open-set rejection. Repository creation metadata is intentionally
+  separate from the academic project period.
+authors:
+  - name: Project contributors

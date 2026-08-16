@@ -1,0 +1,33 @@
+dataset:
+  name: plantvillage_to_plantwild
+  manifest: data/manifests/combined.jsonl
+  source_domain: lab
+  target_domain: field
+  class_map: configs/datasets/example_class_mapping.json
+model:
+  clip_id: openai/clip-vit-base-patch32
+  dino_id: facebook/dinov3-vits16-pretrain-lvd1689m
+  use_text: true
+  use_global: true
+  use_lesion: true
+  learned_gate: true
+  prototypes_per_class: 4
+  hidden_dim: 32
+training:
+  shots: 5
+  seeds: [13, 37, 71, 101, 137]
+  batch_size: 32
+  epochs: 30
+  learning_rate: 0.001
+  patience: 5
+  device: auto
+open_set:
+  enabled: false
+  method: energy
+  energy_weight: 0.5
+  temperature_scaling: true
+  unknown_classes: []
+experiment:
+  name: d_three_view_gate
+  variant: D
+  output_dir: runs
