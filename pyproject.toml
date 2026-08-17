@@ -19,6 +19,7 @@ dependencies = [
 
 [project.optional-dependencies]
 backbones = ["transformers>=4.56,<6"]
+docs = ["reportlab>=4,<5"]
 dev = [
   "mypy>=1.10,<2",
   "pytest>=8,<9",

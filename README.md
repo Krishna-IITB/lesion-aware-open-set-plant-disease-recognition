@@ -31,6 +31,10 @@ The implemented contributions are:
 Implementation claims and historical performance provenance are distinguished in
 [Research claims](docs/claims.md).
 
+The phase-level academic project history is documented in the
+[December 2025-January 2026 project timeline](docs/project_timeline.md), with a ready-to-share
+[PDF edition](output/pdf/project-timeline-dec-2025-jan-2026.pdf).
+
 ## Historical project results
 
 The December 2025–January 2026 academic project produced the following author-supplied results:
